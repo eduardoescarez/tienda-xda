@@ -1,19 +1,18 @@
-.navigation {
+
+.item__navbar {
 
     display:                grid;
     align-items:            center;
-    background-color:     aquamarine;
-
-    ul{
-        text-align:         right;
-    }
-
+    justify-content:        flex-end;
+    
+    
     li{
         list-style-type:    none;
-        display:            block;
-        float:              right;
+        float:              left;
         font-size:          $medium;
         font-weight:        bold;
+        padding-right:      30px;
+    
     }
 
     a{
