@@ -1,0 +1,11 @@
+.wrapper__header{
+    display:                grid;
+    grid-template-columns:  100px 1200px;    
+}
+
+.wrapper__content{
+    display:                grid;
+    grid-template-columns:  550px 750px;
+    grid-template-rows:     490px 200px;
+}
+

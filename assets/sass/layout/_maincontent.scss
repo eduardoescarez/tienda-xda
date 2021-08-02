@@ -1,0 +1,41 @@
+.item{
+
+    &__contenido{
+        background-color:       aquamarine;
+        padding:                40px;
+    }
+
+    &__photo{
+        grid-row:               span 2;
+
+    }
+
+    &__sub{
+        display:                grid;
+        grid-template-columns:  350px 50px;
+
+        &--title{
+            writing-mode:           vertical-rl;
+            text-orientation:       mixed;
+            font-family:            $old-standard;
+            font-size:              $xx-large;
+            text-align:             center;
+            padding-right:          5px;
+            padding-left:           5px;
+        }
+
+        &--newsletter{
+            color:                  $white;
+            background-color:       $smoky-black;
+            font-family:            $old-standard;
+            padding:                10px;
+            padding-left:           40px;
+            padding-right:          40px;
+            
+        }
+    }
+}
+
+main__photo{
+    
+}

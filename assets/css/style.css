@@ -1,3 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  color: #0C0910;
+  margin: 0;
+  padding: 0;
+}
 
+.wrapper__header {
+  display: grid;
+  grid-template-columns: 100px 1200px;
+}
+
+.wrapper__content {
+  display: grid;
+  grid-template-columns: 550px 750px;
+  grid-template-rows: 490px 200px;
+}
+
+header {
+  color: #FFF;
+  background-color: #0C0910;
+  font-family: "Old Standard TT", serif;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1 {
+  display: block;
+  font-size: 30px;
+}
+
+.item__contenido {
+  background-color: aquamarine;
+  padding: 40px;
+}
+.item__photo {
+  grid-row: span 2;
+}
+.item__sub {
+  display: grid;
+  grid-template-columns: 350px 50px;
+}
+.item__sub--title {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.item__sub--newsletter {
+  color: #FFF;
+  background-color: #0C0910;
+  font-family: "Old Standard TT", serif;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navigation {
+  display: grid;
+  align-items: center;
+  background-color: aquamarine;
+}
+.navigation ul {
+  text-align: right;
+}
+.navigation li {
+  list-style-type: none;
+  display: block;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navigation a {
+  text-decoration: none;
+  color: #0C0910;
+}
+.navigation a:hover {
+  color: #0C0910;
+}
 
 /*# sourceMappingURL=style.css.map */

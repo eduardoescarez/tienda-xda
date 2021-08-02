@@ -1,0 +1,27 @@
+.navigation {
+
+    display:                grid;
+    align-items:            center;
+    background-color:     aquamarine;
+
+    ul{
+        text-align:         right;
+    }
+
+    li{
+        list-style-type:    none;
+        display:            block;
+        float:              right;
+        font-size:          $medium;
+        font-weight:        bold;
+    }
+
+    a{
+        text-decoration:    none;
+        color:              $smoky-black;
+
+        &:hover{
+            color:          $smoky-black;
+        }
+    }
+}
