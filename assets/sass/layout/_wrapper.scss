@@ -1,8 +1,8 @@
 .wrapper__header{
 
-    display:                grid;
-    grid-template-columns:  60px 1fr;
-    grid-template-rows:     60px;
+    display:                    grid;
+    grid-template-columns:      60px 1fr;
+    grid-template-rows:         60px;
 
     @include medium{
         grid-template-columns:  90px 1fr;
@@ -14,12 +14,12 @@
 
 
 .wrapper__content{
-    display:                grid;
-    grid-template-columns:  1fr;
+    display:                    grid;
+    grid-template-columns:      1fr;
 
     @include large{
-        grid-template-columns: 1fr 732px;
-        grid-template-rows: 500px 1fr;
+        grid-template-columns:  1fr 732px;
+        grid-template-rows:     500px 1fr;
     }
     
 }
